@@ -6,26 +6,26 @@ public class Homework3 {
 //	• 請設計一隻程式,使用者輸入三個數字後,輸出結果會為正三角形、等腰三角形、其它三角形或不是三角形,如圖示結果:
 //	(提示:Scanner,三角形成立條件,判斷式if else)(進階功能:加入直角三角形的判斷)
 	public static void main(String[] args) {
-		Scanner scan = new Scanner(System.in);
-		
-		System.out.println("請輸入第一個數字");
-		double side1 = scan.nextDouble();
-		
-		System.out.println("請輸入第二個數字");
-		double side2 = scan.nextDouble();
-		
-		System.out.println("請輸入第三個數字");
-		double side3 = scan.nextDouble();
-	
-		if(side1 == side2 && side2 == side3 && side3 == side1) {
-			System.out.println("三角形");
-		}else if(side1 == side2 || side2 == side3 || side3 == side1) {
-			System.out.println("等腰三角形");
-		}else if(side1 + side2 <= side3 || side1 + side3 <= side2 || side3 + side2 <= side1)
-			System.out.println("其他三角形");
-		
-		else
-			System.out.println("不是三角形");
+//		Scanner scan = new Scanner(System.in);
+//		
+//		System.out.println("請輸入第一個數字");
+//		double side1 = scan.nextDouble();
+//		
+//		System.out.println("請輸入第二個數字");
+//		double side2 = scan.nextDouble();
+//		
+//		System.out.println("請輸入第三個數字");
+//		double side3 = scan.nextDouble();
+//	
+//		if(side1 == side2 && side2 == side3 && side3 == side1) {
+//			System.out.println("三角形");
+//		}else if(side1 == side2 || side2 == side3 || side3 == side1) {
+//			System.out.println("等腰三角形");
+//		}else if(side1 + side2 <= side3 || side1 + side3 <= side2 || side3 + side2 <= side1)
+//			System.out.println("其他三角形");
+//		
+//		else
+//			System.out.println("不是三角形");
 
 //	• 請設計一隻程式,會亂數產生一個0~9的數字,然後可以玩猜數字遊戲,猜錯會顯示錯誤訊息,猜對則顯示正確訊息,如圖示結果:
 //(提示:Scanner,亂數方法,無窮迴圈)(進階功能:產生0~100亂數,每次猜就會提示你是大於還是小於正確答案)
